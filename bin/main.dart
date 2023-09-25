@@ -1,3 +1,6 @@
 void main() {
-  print("Hello World");
+  var name = 'Bob';
+  print(name);
+  String? faizan = "faizan khan";
+  print(faizan);
 }
