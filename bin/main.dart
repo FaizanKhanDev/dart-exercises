@@ -1,6 +1,5 @@
 void main() {
-  var name = 'Bob';
-  print(name);
-  String? faizan = "faizan khan";
+  late String faizan;
+  faizan = "Faizan Khan";
   print(faizan);
 }
