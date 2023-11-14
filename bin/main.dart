@@ -9,4 +9,7 @@ void main() {
   const bar = 1000000;
   const atm = 1.01325 * bar;
   print(atm);
+
+  int khan = 100;
+  print(khan.runtimeType);
 }
