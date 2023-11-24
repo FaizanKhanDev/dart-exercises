@@ -21,7 +21,7 @@ void main() {
   list1[4] = 50;
   // print(list1.runtimeType);
 
-  var list2 = [10, 20, 30, 40, 50];
+  List<int> list2 = [10, 20, 30, 40, 50];
   // print(list2.runtimeType);
 
   var list3 = [10, 20, 40, 50, 70, 100];
