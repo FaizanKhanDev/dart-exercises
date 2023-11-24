@@ -12,4 +12,12 @@ void main() {
 
   int khan = 100;
   print(khan.runtimeType);
+
+  var list1 = new List<int>.filled(5, 0);
+  list1[0] = 10;
+  list1[1] = 20;
+  list1[2] = 30;
+  list1[3] = 40;
+  list1[4] = 50;
+  print(list1.runtimeType);
 }
