@@ -26,7 +26,15 @@ void main() {
   });
 
   var faizanMap = {'age': 21, 'name': "Faizan", 'city': "Karachi"};
-  faizanMap.forEach((key, value) => {print("KEY: $key"), print("VAL: $value")});
+  // With For Each
+  faizanMap.forEach((key, value) => {
+        // print("KEY: $key"), print("VAL: $value")
+      });
+
+// with forloop
+  for (var i in faizanMap.entries) {
+    // print(i);
+  }
 }
 
 // void faizan() {
