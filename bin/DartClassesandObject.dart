@@ -7,8 +7,13 @@ class Student {
     print("$fname $lname");
   }
 
-  void studentAge() {
+  studentAge() {
     print(age);
+    return age;
+  }
+
+  void studentDetails() {
+    print("$fname $lname $age $city");
   }
 }
 
@@ -20,5 +25,12 @@ void main() {
     print("Eligible for Admission");
   } else {
     print("Not Eligible for Admission");
+  }
+
+  student.studentDetails();
+  if (student.city == "Karachi") {
+    print("Student is From karachi");
+  } else {
+    print("Student is not From karachi");
   }
 }
